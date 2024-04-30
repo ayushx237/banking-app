@@ -1,0 +1,107 @@
+body{
+    align-items: center;
+    margin:0;
+    font-family: 'Roboto', 'sans-serif';
+    text-align: center;
+}
+*{
+    font-family: 'Roboto', 'sans-serif';
+}
+.heading{
+    align-items: center;
+    
+	height:100px;
+	background-color:#16c3da;
+	color:#FFFFFF;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em;
+    
+}
+.boxed{ margin:0 auto;
+    align-items: center;
+    width:500px;
+    /* height:350px; */
+    box-sizing: border-box;
+	justify-content: space-between;
+	/* padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px; */
+    border: 5px solid #0e7686;
+	background-color:#16c3da;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius:15px ;
+    margin-bottom:150px;
+    
+    
+}
+.whole{
+    border: 10px solid #0e7686;
+    height:max-content;
+    border-radius: 15px;
+}
+.all{
+    
+    font-size: 2em;
+    border-radius: 10px;
+}
+.btn{
+    font-size: 2em;
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgb(65, 76, 85);
+    border: 2px solid white;
+}
+.result{
+    font-size: 2em;
+    color:#FFFFFF
+}
+ 
+@media  screen and (max-width:1024px) {
+    .all{
+    
+        font-size: 3em;
+        border-radius: 10px;
+        height: 40px;
+        margin: 20px;
+    }
+    .btn{
+        font-size: 10em;
+        padding:30px;
+        border-radius: 10px;
+        background-color: rgb(65, 76, 85);
+        border: 4px solid white;
+        margin: 5px;
+    }
+    .result{
+        font-size: 6em;
+        color:#FFFFFF
+    }
+    .boxed{ margin:0 auto;
+
+        margin-top:400px;
+        align-items: center;
+        width:700px;
+        /* height:350px; */
+        box-sizing: border-box;
+        justify-content: space-between;
+        border: 5px solid #0e7686;
+        background-color:#16c3da;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius:50px ;
+        margin-bottom: 580px;
+    }
+    .heading{
+        font-size: 3em;
+        height: 200px;
+    }
+    
+}

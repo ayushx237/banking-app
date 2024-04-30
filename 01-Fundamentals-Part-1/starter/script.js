@@ -1,0 +1,32 @@
+console.log("ayush i love you");
+console.log("ayush i love me");
+let firstname="love";
+let island="india";
+let language;
+let population=45;
+const contry="india";
+const country="ustralia";
+console.log(typeof island);
+console.log(typeof language);
+console.log(typeof population);
+console.log(country);
+var india=100;
+
+india++;
+console.log(typeof india);
+console.log(india<102);
+
+olivia="bleach";
+console.log(typeof olivia);
+console.log(typeof null);
+let currntyear;
+let birtyear;
+currntyear=2023;
+birtyear=2003;
+const age=currntyear-birtyear;
+console.log(age);
+console.log('20'+10+10);
+console.log('20'-'10'-10);
+let n=Number("1")+1+1;
+n=n-1;
+console.log(n);
